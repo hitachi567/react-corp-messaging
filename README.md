@@ -1,5 +1,6 @@
-# Getting Started with Create React App
+# Corporation messaging with Create React App
 
+This is a corporate messenger created as part of the coursework.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
