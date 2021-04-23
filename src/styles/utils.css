@@ -1,0 +1,33 @@
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: #d3bfec;
+    border: 2px solid #d3bfec;
+    color: #000000;
+}
+
+.button:hover {
+    background-color: #bbb0ca ;
+    border: 2px solid #bbb0ca;
+    color: white;
+}
+
+.button:active  {
+    background-color: #777083;
+    border: 2px solid #777083;
+    color: white;
+}
+
+
+ul.inline > li {
+    display: inline;
+    cursor: pointer;
+    user-select: none;
+}
