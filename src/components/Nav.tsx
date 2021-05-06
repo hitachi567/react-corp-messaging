@@ -1,24 +1,61 @@
-import { Component } from 'react'
+import { Component } from 'react';
+import classNames from 'classnames';
+import { TPage } from '../propTypes';
 
-const buttons = [
+const pages: TPage[][] = [
     [
-        'Feed', 'Messages', 'Groups', 'Profile'
-    ], [
-        'Sign in', 'Sign up'
-    ]
-]
+        {
+            view: 'Feed',
+            path: '/feed',
+            icon: <span className="material-icons icon">article</span>
+        },
+        {
+            view: 'Messages',
+            path: '/messages',
+            icon: <span className="fas fa-comments icon"></span>
+        },
+        {
+            view: 'Groups',
+            path: '/groups',
+            icon: <span className="material-icons icon">group</span>
 
-export default class Nav extends Component<{ isAuthorized: boolean }> {
+        },
+        {
+            view: 'Profile',
+            path: '/profile',
+            icon: <span className="material-icons icon">account_box</span>
+        }
+    ],
+    [
+        {
+            view: 'Sign in',
+            path: '/sign-in',
+            icon: <i className="fas fa-sign-in-alt"></i>
+        },
+        {
+            view: 'Sign up',
+            path: '/sign-up',
+            icon: <i className="fas fa-user-plus"></i>
+        }
+    ]
+];
+
+export default class Nav extends Component<{ isAuthorized: boolean, current?: string }> {
     render() {
+        const i = this.props.isAuthorized ? 0 : 1;
         return (
             <nav>
-                <ul className="zero">
-                    {
-                        buttons[this.props.isAuthorized ? 0 : 1]
-                            .map(value => <li><button>{value}</button></li>)
-                    }
+                <ul className={classNames({
+                    around: this.props.isAuthorized,
+                    end: !this.props.isAuthorized
+                })}>
+                    {pages[i].map(value => (
+                        <li key={value.path.substring(1)}>
+                            <button>{value.icon || ''}<span className="text">{value.view}</span></button>
+                        </li>
+                    ))}
                 </ul>
             </nav>
-        )
+        );
     }
 }

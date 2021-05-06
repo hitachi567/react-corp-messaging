@@ -1,0 +1,75 @@
+$color: #ffffff;
+$colorHover: #dadada;
+* {
+    color: $color;
+}
+body {
+    background-color: #1f2023;
+}
+
+main {
+    color: #ffffff;
+}
+
+main .contaner {
+    background-color: #27292d;
+}
+
+main section {
+    background-color: #2d2f34;
+}
+
+main article {
+    background-color: #383b40;
+}
+
+header {
+    background-color: #19409c;
+
+    .title h1:hover,
+    li button:hover {
+        color: $colorHover;
+    }
+
+    li button {
+        background-color: inherit;
+        &:hover,
+        &.current {
+            border-bottom-color: #81eaff;
+        }
+        &:active {
+            background-color: #0a2463;
+        }
+    }
+}
+
+.online-indicator {
+    background-color: #383b40;
+}
+
+.online-indicator .online {
+    background-color: #55e48c;
+}
+
+.online-indicator .offline {
+    background-color: #868686;
+}
+
+.preview .count-new-messages.visible {
+    background-color: #19409c;
+}
+
+::-webkit-scrollbar-track {
+    background-color: inherit;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #234188;
+}
+
+.message {
+    background-color: transparent;
+
+    .message-box {
+        background-color: #515c68;
+    }
+}
