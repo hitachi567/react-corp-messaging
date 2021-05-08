@@ -1,0 +1,31 @@
+messages {
+    chat-list {
+        search
+        chat-content[]
+    }
+    chat-area {
+        chat-profile
+        chat-output {
+            message[]
+        }
+        chat-input
+    }
+    contact-profile | group-profile {
+        
+    }
+}
+
+contacts {
+    contacts-list {
+        search
+        contact-content[]
+        black-list {
+            contact-content[]
+        }
+        add-contact
+    }
+    contact-profile {
+
+    }
+    
+}
