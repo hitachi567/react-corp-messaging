@@ -1,0 +1,54 @@
+{
+    "chat": [
+        {
+            "userPicSrc": "http://www.youloveit.ru/uploads/gallery/main/836/youloveit_ru_miraculous_ladybug_kwami_du.jpg",
+            "chatName": "Duusu Agrest",
+            "countNewMessages": 17,
+            "online": true,
+            "lastMessage": {
+                "date": "21/04/21",
+                "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, eaque! Quidem similique quisquam, mollitia repudiandae consequuntur unde dolorem soluta. Vero dolorum quas autem."
+            }
+        },
+        {
+            "userPicSrc": "https://thispersondoesnotexist.com/image",
+            "chatName": "rgbeibj riweqgjoewb",
+            "countNewMessages": 0,
+            "online": true,
+            "lastMessage": {
+                "date": "05/12/20",
+                "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, eaque! Quidem similique quisquam, mollitia repudiandae consequuntur unde dolorem soluta. Vero dolorum quas autem."
+            }
+        },
+        {
+            "userPicSrc": "https://thispersondoesnotexist.com/image",
+            "chatName": "rgbeibj riweqgjoewb",
+            "countNewMessages": 0,
+            "online": true,
+            "lastMessage": {
+                "date": "05/12/20",
+                "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, eaque! Quidem similique quisquam, mollitia repudiandae consequuntur unde dolorem soluta. Vero dolorum quas autem."
+            }
+        },
+        {
+            "userPicSrc": "https://thispersondoesnotexist.com/image",
+            "chatName": "rgbeibj riweqgjoewb",
+            "countNewMessages": 0,
+            "online": true,
+            "lastMessage": {
+                "date": "05/12/20",
+                "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, eaque! Quidem similique quisquam, mollitia repudiandae consequuntur unde dolorem soluta. Vero dolorum quas autem."
+            }
+        },
+        {
+            "userPicSrc": "https://thispersondoesnotexist.com/image",
+            "chatName": "rgbeibj riweqgjoewb",
+            "countNewMessages": 0,
+            "online": false,
+            "lastMessage": {
+                "date": "05/12/20",
+                "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, eaque! Quidem similique quisquam, mollitia repudiandae consequuntur unde dolorem soluta. Vero dolorum quas autem."
+            }
+        }
+    ]
+}
